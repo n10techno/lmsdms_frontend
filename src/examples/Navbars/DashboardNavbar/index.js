@@ -164,7 +164,8 @@ function DashboardNavbar({ absolute, light, isMini }) {
                     <FormControl fullWidth margin="normal">
                       <InputLabel id="role-select-label"
                       sx={{
-                        padding: "0.5rem",
+                      
+                        
                       }}
                       >
                       Select Role
