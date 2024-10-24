@@ -57,14 +57,7 @@ const routes = [
   //   route: "/authentication/DocEditor",
   //   component: <DocEditor />,
   // },
-  {
-    type: "collapse",
-    name: "PrintDocument",
-    key: "print-document",
-    icon: <Icon fontSize="small">login</Icon>,
-    route: "/authentication/print-document",
-    component: <PrintDocument />,
-  },
+  
   {
     type: "collapse",
     name: "Dashboard",
@@ -106,6 +99,14 @@ const routes = [
     icon: <Icon fontSize="small">assignment</Icon>,
     route: "/authentication/log-in",
     component: <Login/>,
+  },
+  {
+    type: "collapse",
+    name: "PrintDocument",
+    key: "print-document",
+    icon: <Icon fontSize="small">login</Icon>,
+    route: "/authentication/print-document",
+    component: <PrintDocument />,
   },
   // {
   //   type: "collapse",
